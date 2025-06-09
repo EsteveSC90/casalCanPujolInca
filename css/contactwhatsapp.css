@@ -1,0 +1,15 @@
+#whatsapp-button {
+  position: fixed;
+  bottom: 127px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+  right: 10px; /* Ajusta la distancia desde la derecha según sea necesario */
+  z-index: 1000; /* Asegúrate de que el botón esté en la parte superior */
+}
+
+
+
+#whatsapp-button img {
+  width: 60px; /* Ajusta el tamaño del ícono según sea necesario */
+  height: auto;
+  border-radius: 22%; /* Esto hace que el ícono sea redondo, puedes eliminarlo si prefieres un ícono cuadrado */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
